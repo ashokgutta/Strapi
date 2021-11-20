@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recom_form_grps",
+  "info": {
+    "name": "recomFormGrp",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "unique": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "templateOptions": {
+      "type": "json"
+    }
+  }
+}

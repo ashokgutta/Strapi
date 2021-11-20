@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/templ-options",
+      "handler": "templ-option.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/templ-options/count",
+      "handler": "templ-option.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/templ-options/:id",
+      "handler": "templ-option.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/templ-options",
+      "handler": "templ-option.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/templ-options/:id",
+      "handler": "templ-option.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/templ-options/:id",
+      "handler": "templ-option.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

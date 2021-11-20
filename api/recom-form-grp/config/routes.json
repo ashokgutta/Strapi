@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recom-form-grps",
+      "handler": "recom-form-grp.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recom-form-grps/count",
+      "handler": "recom-form-grp.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recom-form-grps/:id",
+      "handler": "recom-form-grp.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/recom-form-grps",
+      "handler": "recom-form-grp.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recom-form-grps/:id",
+      "handler": "recom-form-grp.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recom-form-grps/:id",
+      "handler": "recom-form-grp.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

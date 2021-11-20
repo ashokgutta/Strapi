@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templ_options",
+  "info": {
+    "name": "Option",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "unique": true
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "string"
+    },
+    "option": {
+      "via": "templ_option",
+      "model": "title-option"
+    }
+  }
+}
